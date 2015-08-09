@@ -1,0 +1,15 @@
+database dbname=thing_date
+sql thing_date.sql
+file /pikaday.css pikaday.css
+allow url /pikaday.css
+file /site.css site.css
+allow url /site.css
+file /moment.js moment.js
+script /moment.js
+file /pikaday.js pikaday.js
+script /pikaday.js
+file /pikadayControl.js pikadayControl.js
+script /pikadayControl.js
+library pikadayControl
+
+thingDate
